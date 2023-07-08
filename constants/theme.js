@@ -1,13 +1,13 @@
 const COLORS = {
   primary: "#312651",
   secondary: "#444262",
-  tertiary: "#FF7754",
+  tertiary: "#fb8500",
 
   gray: "#83829A",
   gray2: "#C1C0C8",
 
   white: "#F3F4F8",
-  lightWhite: "#FAFAFC",
+  lightWhite: "#e5e5e5",
 };
 
 const FONT = {
@@ -39,12 +39,12 @@ const SHADOWS = {
   medium: {
     shadowColor: "#000",
     shadowOffset: {
-      width: 0,
-      height: 2,
+      width: 5,
+      height: 5,
     },
-    shadowOpacity: 0.25,
+    shadowOpacity: 1,
     shadowRadius: 5.84,
-    elevation: 5,
+    elevation: 10,
   },
 };
 
